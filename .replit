@@ -1,0 +1,15 @@
+# .replit configuration
+run = "python app.py"
+language = "python3"
+
+[env]
+PORT = "3000"
+DEBUG = "true"
+
+[features]
+search = true
+gallery = false
+community = false
+
+[deployment]
+deploymentTarget = "repl"
